@@ -6,17 +6,18 @@
     <div class="container">
 
       <a href="<?=site_url()?>Sites/ingles"><img class="bandeira"  src="<?=site_url()?>resources/site/images/eua_flag.png"></a><!-- <p style="color:#4f81bd;font-size: 5em;">2018</p> -->
-   
+
       <div class="banner">
-    <center>
+        <center>
           <a href="#" target="_blank"> 
             <img class=""  src="<?=site_url()?>resources/site/images/logo_explo.png">
           </a>
           <a href="" target="_blank">
             <img class=""  src="<?=site_url()?>resources/site/images/ISSE_2018.png">
           </a>
+        </center>
       </div>
-    </center>
+
 
       <div class="signin">
         <div class="botoes">
@@ -24,25 +25,30 @@
             <li>
               <a href="#location">COMO PARTICIPAR</a>
             </li>
-             <li>
+            <li>
               <a href="#form">QUERO PARTICIPAR</a>
             </li>
           </ul>
         </div>
-        <a href="#">
+        <center>
+         <a href="http://www.hbatools2.com.br/tools/credenciamento/formulario.asp?e=EXPLOTECH&pro=1" target="_blank">
           <img src="<?=site_url()?>resources/site/images/cred.jpg" alt="">
         </a>
-      </div>
+        <a href="https://www.hbatools.com.br/Home/ChangeLanguageInscricao/33?lang=pt">
+          <img src="<?=site_url()?>resources/site/images/insc.jpg" alt="">
+        </a>
+      </center>
+    </div>
 
-      <!-- Display the countdown timer in an element -->
+    <!-- Display the countdown timer in an element -->
 
-  <div class="relogio">
+    <div class="relogio">
       <p id="demo"></p>
-  </div>
+    </div>
 
-<script>
+    <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 5, 2019 15:37:25").getTime();
+var countDownDate = new Date("Oct 16, 2019 15:37:25").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -60,7 +66,7 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + " dias " + hours + " horas "
+  document.getElementById("demo").innerHTML = "Faltam: "+days + " dias " + hours + " horas "
   + minutes + " min";
 
   // If the count down is finished, write some text 
@@ -70,58 +76,30 @@ var x = setInterval(function() {
   }
 }, 1000);
 </script>
-      
+
+
+    <div class="logos">
+      <a href="http://globalevents1959.com/">
+        <img class="globallogo"  src="<?=site_url()?>resources/site/images/global_header_.png"></a>
+      <a href="http://abimex.ind.br">
+        <img class="abimexlogo"  src="<?=site_url()?>resources/site/images/abimex_ise.png">
+      </a>
+    </div>
+     <div class="logos">
+      <a href="http://globalevents1959.com/">
+        <img class="globallogo"  src="<?=site_url()?>resources/site/images/global_header_.png"></a>
+      <a href="http://abimex.ind.br">
+        <img class="abimexlogo"  src="<?=site_url()?>resources/site/images/abimex_ise.png">
+      </a>
+    </div>
+</div> <!-- container -->
+</div>
+<!-- header ends -->
 
 
 
-      <div class="row" style="width: 100%;">
-        <a href="http://globalevents1959.com/"><img class="globallogo"  src="<?=site_url()?>resources/site/images/global_header_.png"></a>
-        <a href="http://abimex.ind.br"><img class="abimexlogo"  src="<?=site_url()?>resources/site/images/abimex_ise.png"></a>
-      </div>
-
-
-      <div class="fixtudo" style="margin-top: 10em;">
-        <div class="when">
-          <div class="icon-holder">
-            <i class="fa fa-calendar"></i>
-          </div>
-          <div >
-            <p ><strong >Quando</strong></p><br/>
-            <p style="color:#9eacac;"><span ><?=$header['subtitulo']?></span></p>
-          </div>
-
-        </div>
-
-        <div class="where">
-
-          <div class="icon-holder">
-            <i class="fa fa-map-marker"></i>
-          </div>
-
-          <div style="">
-            <p ><strong >Onde</strong></p>
-            <p style="margin-top: 0.2em;"><a class="" style="color:#000;" href="https://www.google.com.br/maps/place/Centro+de+Conven%C3%A7%C3%B5es+Frei+Caneca/@-23.5539631,-46.655073,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce58353b285069:0x1113710f04f14eba!8m2!3d-23.5539631!4d-46.6528843" target="_blank"><img style="max-width: 24%" src="<?=site_url()?>resources/site/images/feicaneca.png"></a><b class="bfix" ">Entre em contato para mais informações</b></p>
-            <p style="color:#000;"></p>
-
-          </div>
-
-        </div>
-
-      </div>
-
-
-    </div> <!-- container -->
-    <center>
-
-     <a href="http://www.hbatools2.com.br/tools/credenciamento/formulario.asp?e=EXPLOTECH&pro=1" target="_blank" > <img class="credenciamento" src="<?=site_url()?>resources/site/images/credenciamento.jpg" alt="credenciamento"></a>
-   </center>
- </div>
- <!-- header ends -->
-
-
-
- <!-- topics -->
- <div class="topics" style="margin-top: 2em;">
+<!-- topics -->
+<div class="topics" style="margin-top: 2em;">
   <div class="container">
 
     <center>

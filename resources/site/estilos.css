@@ -20,11 +20,13 @@
 .signin{
 	width: 100%;
 	height: auto;
-	padding: 10px;
 }
 
 .signin img{
-	width: 100%;
+	width: 49%;
+	margin-top: 2px;
+	box-shadow: 5px 10px;
+	border: 0.2px solid;
 
 }
 
@@ -34,10 +36,7 @@
 	background-color: #4576b5;
 }
 
-.header ul li {
-    margin-left: 12em;
 
-}
 
 .relogio{
 	width: 100%;
@@ -46,90 +45,23 @@
 
 .relogio p{
 	color:#4576b5;
-	font-size: 5em;
+	font-size: 4em;
 	text-align: center;
+	margin-top: 20px;
+
 }
 
+.logos{
+	width: 100%;
+	height: auto;
+}
+
+.logos img{
+	width:49%;
+}
 .agencia{
 	width: 80%!important;
 }
-/*Logo Agencia Mistragol*/
-.credenciamento
-{
-	position: relative;
-	top:7em;
-	width: 40%;
-}
-
-.corrige{
-	float:right;
-	width: 50%;
-
-}
-.h2parceiros{
-	color: #000!important;
-	padding:0 0px!important;
-	font-size: 3em;
-	margin-bottom: 0.5em!important;
-}
-.when .icon-holder, .where .icon-holder{
-	background: #4f81bd!important;
-}
-
-.address{
-	width: 100%!important;
-
-}
-
-
-
-.globallogo{
-	position: relative;
-	max-width: 18%;
-	right: -44em;
-	top: 3.7em;
-}
-
-.abimexlogo{
-	position: relative;
-	max-width: 27%;
-	right: -1em;
-	top: 3.7em;
-}
-
-
-.esquerda{
-	width: 33%;
-}
-
-.direita{
-	width: 38%;
-	margin-left: 2em;
-}
-
-.revista{
-	width: 19%;
-	margin-left: 5em;
-	bottom: 1em;
-	position: relative;
-}
-
-
-.header .subtitle{
-	font-size: 1em;
-	position: relative;
-	top: -14em;
-	left: 25em;
-	width: 71%;
-	margin-bottom: -2em;
-
-}
-.fixtudo{
-
-}
-
-
-
 /*logo explo quando abre o modal*/
 .modalogo{
 /*position: relative;
@@ -161,10 +93,19 @@ float: right;
 		left: 21em;
 
 	}
+
+	.header ul li {
+    	margin-left: 16.5em;
+	}
 }
 
 @media (max-width: 1024px)
 {	
+
+	.header ul li {
+    margin-left: 12.5em;
+
+	}
 
 	.bandeira{
 		left: 57em;
@@ -199,9 +140,16 @@ float: right;
 @media (max-width: 812px)
 {
 
+	.header .signin ul li {
+    margin-left: 7.5em;
+	}
 	.credenciamento {
 		top: -42em;
 		width: 42%;
+	}
+
+	.relogio p {
+    	font-size: 3em;
 	}
 
 	.header {

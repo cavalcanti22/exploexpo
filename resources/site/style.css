@@ -147,7 +147,7 @@ a {
 
 /* 5. Header */
 .header {
-  height: 81em;
+  height: auto;
   /*background: #888888 url("images/diner-336499.jpg") 50% 0 no-repeat fixed;*/
   /*background: #888888 url("images/silver.jpg") 50% 0 no-repeat fixed;*/
   /*background: #888888 url("images/degrade.jpg") 50% 0 no-repeat fixed;*/
