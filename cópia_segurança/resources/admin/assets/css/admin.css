@@ -1,0 +1,25 @@
+.imgExpand{
+	width: 10%;
+}
+
+.imgExpand:hover{
+	width: 40%;
+
+}
+
+
+
+@media only screen and (max-width: 768px) { 
+
+	.imgExpand{
+	width: 40%;
+}
+
+.imgExpand:hover{
+	width: 100%;
+
+}
+
+
+
+}

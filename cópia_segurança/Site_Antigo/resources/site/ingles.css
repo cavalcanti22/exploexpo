@@ -1,0 +1,191 @@
+
+
+.botao1en {
+	width: 57%;
+
+}
+
+.botao2en {
+	margin-top: 1em;
+	width: 57%;
+
+}
+
+
+@media (max-width: 1440px)
+{
+	
+
+}
+@media (max-width: 1024px)
+{
+	
+
+	.register-now{
+		text-align: center!important;
+		right: 7em;
+		top: 34em;
+	}
+
+
+}
+
+
+
+@media (max-width: 769px)
+{
+
+	.botao1en {
+		width: 31%;
+
+	}
+	.botao2en {
+		width: 31%;
+
+	}
+
+	}
+
+@media (max-width: 568px)
+{
+	.botao1en {
+		width: 41%;
+
+	}
+	.botao2en {
+		width: 41%;
+
+	}
+}
+@media (max-width: 481px)
+{
+
+
+}
+
+@media (max-width: 426px)
+{
+
+.botao1en {
+		width: 43%;
+
+	}
+	.botao2en {
+		width: 43%;
+
+	}
+
+}
+
+@media (max-width: 414px)
+{
+.botao1en {
+		width: 43%;
+
+	}
+	.botao2en {
+		width: 43%;
+
+	}
+
+}
+
+@media (max-width: 412px)
+{
+.botao1en {
+		width: 43%;
+
+	}
+	.botao2en {
+		width: 43%;
+
+	}
+
+}
+
+}
+	@media (max-width: 376px)
+	{
+
+		.event .event-time
+		{
+			font-size: 0.7em;
+		}
+
+		.social div{
+			padding: 0px 34px;
+		}
+
+		.address {
+			width: 130%%;
+		}
+		.register-now a.button{
+			padding: 0 13px!important;
+		}
+
+		.schedule ul li a{
+			font-size: 0.8em!important;
+		}
+
+		#subtitulo{
+			font-size: 0.49em;
+		}
+
+		.bfix{
+			font-size: 0.6em;
+		}
+
+	}
+
+	@media (max-width: 360px)
+	{
+		.register-now {
+
+			font-size: 1em;
+
+		}
+
+		.bfix {
+			font-size: 0.5em;
+		}
+	}
+
+	@media (max-width: 321px)
+	{
+
+		.price h4 span
+		{
+			font-size: 0.6em!important;
+
+		}
+		.info
+		{
+			padding: 2em;
+		}
+		.register-now a.button{
+			padding: 0 2px!important;
+		}
+
+		.schedule ul li a{
+			font-size: 0.7em!important;
+		}
+		#subtitulo {
+			font-size: 0.45em;
+		}
+
+		.header .subtitle {
+			left: 12em;
+			width: 71%;
+
+		}
+		.bfix{
+			left: 2em;
+			font-size: 0.48em;
+
+		}
+		.when span 
+		{
+			font-size: 0.5em;
+		}
+
+	}
