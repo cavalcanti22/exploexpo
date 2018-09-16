@@ -293,35 +293,44 @@ float: right;
 {
 
 	.header {
-		height: 63em;
+		height: 116em;
 	}
 
-	.credenciamento {
-		width: 62%;
-	}
-	.header .subtitle {
-		left: 19em;
-	}
 
 	.bandeira {
 		left: 31em;	
 	}
 
-	.direita {
-		margin-left: 1em;
+	.header .signin ul li {
+    	margin-left: 3em;
 	}
 
+	.relogio p {
+   		 font-size: 2.6em;
+	}
+
+	
 	.revista {
 		margin-left: 1.8em;
 	}
 
-	.globallogo {
-		left: 21em;
-	}
 }
 
 @media (max-width: 510px)
 {	
+
+	.header .signin ul li {
+    	margin-left: 1em;
+	}
+
+	.signin img {
+  	  width: 100%;
+   
+	}
+
+	.relogio p {
+    	font-size: 2.3em;
+	}
 	.revista {
 		margin-left: 1.3em;
 	}
@@ -330,9 +339,6 @@ float: right;
 		left: 27em;	
 	}
 
-	.globallogo {
-		left: 19em;
-	}
 }
 
 @media (max-width: 481px)
@@ -342,47 +348,39 @@ float: right;
 	}
 
 	.header {
-		height: 58em;
-	}
-	.globallogo {
-		left: 17em;
+		height: 111em;
 	}
 
+	.header .signin ul li {
+   		 margin-left: 0.5em;
+	}	
+	
 	.bandeira {
 		left: 25em;
+	}
+
+	.relogio p {
+    	font-size: 2.1em;
 	}
 	.revista {
 		margin-left: 1.1em;
 	}
 
-	.header .subtitle {
-		left: 16em;
-	}
-
-	.register-now a.button {
-		padding: 0 16px;
-
-	}
-
-	.when span{
-		font-size: 1em;
-	}
-
-	.bfix {
-		font-size: 0.8em;
-	}
 }
 
 @media (max-width: 426px)
 {	
 	
 	.header {
-		height: 76em;
+		height: 120em;
 	}
 
-	.credenciamento {
-		width: 57%;
+	.header .signin ul li {
+    	margin-left: 3em;
+    	margin-top: 1px;
+ 	   padding-top: 5px;
 	}
+
 
 	.bandeira {
 		left: 20.2em;
@@ -394,25 +392,14 @@ float: right;
 
 	}
 
-	.globallogo {
-		top: 1em;
-		left: 14em;
-	}
+	
 
 	.direita{
 		width: 29%;
 		margin-left: 1em; 
 	}
 
-	.logotopo{
-		max-width: 50%;
 
-	}
-
-	.abimexlogo{
-		right: -1em;
-
-	}
 
 	.schedule ul li a{
 		font-size: 0.9em!important;
@@ -427,13 +414,7 @@ float: right;
 
 	}
 
-	.aptopo{
 
-	}
-
-	.fixtudo{
-
-	}
 	.event .event-time
 	{
 		font-size: 0.9em!important;
@@ -450,61 +431,13 @@ float: right;
 	{
 		font-size: 0.8em;
 	}
-
-	.register-now a.button{
-		margin-bottom: 2em;
-	}
-
-	.register-now a.button{
-		font-size: 0.5em!important;
-		padding: 0 20px;
-
-	}
-
-	.imgfix{
-		max-width: 30%!important;
-		
-	}
-
-	.header .subtitle {
-
-		margin-bottom: 3em; 
-		left: 16em;
-		width: 70%;
-	}
-
-	.bfix{
-		font-size: 0.7em;
-		bottom:0.8em; 
-	}
+	
 
 	.aptopo{
 		width: 100%;
 
 	}
 
-	.when .icon-holder, .where .icon-holder{
-
-		width: 28px;
-		padding: 7px 0;
-		font-size: 0.7em;
-	}
-
-	.when strong, .where strong {
-
-		font-size: 0.6em;
-	}
-
-	.when span {
-		font-size: 0.7em;
-		position: relative;
-		bottom: 2em;
-	}
-
-	.where
-	{
-		margin-top: 1em;
-	}
 
 	.topics{
 		margin-top: -32em!important;
