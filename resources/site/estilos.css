@@ -80,6 +80,17 @@
 .agencia{
 	width: 80%!important;
 }
+.palestrantes{
+	width:70%;
+}
+
+.botao_insc{
+	width:70%;
+	margin-bottom: 3em;
+}	
+.noticias{
+	width:50%;
+}
 /*logo explo quando abre o modal*/
 .modalogo{
 /*position: relative;
@@ -97,7 +108,7 @@ float: right;
 	}
 
 	.header ul li {
-    	margin-left: 16.5em;
+		margin-left: 16.5em;
 	}
 
 	.header {
@@ -107,9 +118,12 @@ float: right;
 
 @media (max-width: 1024px)
 {	
-
+	
+	.header {
+		height: 92em;
+	}
 	.header ul li {
-    margin-left: 12.5em;
+		margin-left: 12.5em;
 
 	}
 
@@ -147,7 +161,7 @@ float: right;
 {
 
 	.header .signin ul li {
-    margin-left: 7.5em;
+		margin-left: 7.5em;
 	}
 	.credenciamento {
 		top: -42em;
@@ -155,7 +169,7 @@ float: right;
 	}
 
 	.relogio p {
-    	font-size: 3em;
+		font-size: 3em;
 	}
 
 	.header {
@@ -179,8 +193,8 @@ float: right;
 {
 
 	.agencia{
-	width: 90%!important;
-}
+		width: 90%!important;
+	}
 	.viagem{
 		width: 40%;
 	}
@@ -223,11 +237,11 @@ float: right;
 	}
 	
 	.header .signin ul li {
-    margin-left: 4.5em;
+		margin-left: 4.5em;
 	}
 
 	.banner img {
-    width: 44%;
+		width: 44%;
 	}
 	
 	.revista {
@@ -262,7 +276,7 @@ float: right;
 }
 
 @media only screen and (max-width: 600px) {
-    
+
 	.banner img {
 		width: 62%;
 	}
@@ -276,7 +290,7 @@ float: right;
 	}
 
 	header .signin ul li {
-    	margin-left: 4em;
+		margin-left: 4em;
 	}
 
 	.logos img {
@@ -302,11 +316,11 @@ float: right;
 	}
 
 	.header .signin ul li {
-    	margin-left: 3em;
+		margin-left: 3em;
 	}
 
 	.relogio p {
-   		 font-size: 2.6em;
+		font-size: 2.6em;
 	}
 
 	
@@ -320,16 +334,16 @@ float: right;
 {	
 
 	.header .signin ul li {
-    	margin-left: 1em;
+		margin-left: 1em;
 	}
 
 	.signin img {
-  	  width: 100%;
-   
+		width: 100%;
+
 	}
 
 	.relogio p {
-    	font-size: 2.3em;
+		font-size: 2.3em;
 	}
 	.revista {
 		margin-left: 1.3em;
@@ -352,7 +366,7 @@ float: right;
 	}
 
 	.header .signin ul li {
-   		 margin-left: 0.5em;
+		margin-left: 0.5em;
 	}	
 	
 	.bandeira {
@@ -360,7 +374,7 @@ float: right;
 	}
 
 	.relogio p {
-    	font-size: 2.1em;
+		font-size: 2.1em;
 	}
 	.revista {
 		margin-left: 1.1em;
@@ -376,15 +390,27 @@ float: right;
 	}
 
 	.header .signin ul li {
-    	margin-left: 3em;
-    	margin-top: 1px;
- 	   padding-top: 5px;
+		margin-left: 3em;
+		margin-top: 1px;
+		padding-top: 5px;
 	}
 
 
 	.bandeira {
 		left: 20.2em;
 		bottom: 57px;
+	}
+
+	.relogio p {
+		font-size: 1.8em;
+	}
+
+	.palestrantes{
+		width:100%;
+	}
+
+	.botao_insc {
+		width: 100%;
 	}
 
 	.revista{
@@ -404,40 +430,6 @@ float: right;
 	.schedule ul li a{
 		font-size: 0.9em!important;
 	}
-	#htitulo
-	{
-		font-size: 1.2em;
-	}
-	#subtitulo
-	{
-		font-size: 0.6em;
-
-	}
-
-
-	.event .event-time
-	{
-		font-size: 0.9em!important;
-	}
-	.event .event-info
-	{
-		font-size: 0.8em;
-	}
-	.social h2
-	{
-		font-size: 2.2em;
-	}
-	.social .subtitle
-	{
-		font-size: 0.8em;
-	}
-	
-
-	.aptopo{
-		width: 100%;
-
-	}
-
 
 	.topics{
 		margin-top: -32em!important;
@@ -446,14 +438,32 @@ float: right;
 
 @media (max-width: 412px)
 {
-	register-now a.button {
-		padding: 0 20px;
+	.relogio p {
+		font-size: 1.7em;
 	}
 }
 @media (max-width: 376px)
 {
-	.credenciamento {
-		width: 54%;
+
+	.header {
+	    height: 126em;
+	}
+
+	.header ul li a {
+		font-size: 10.1px;
+		margin-left: -1.5em;
+	}
+
+	.banner img {
+    	width: 100%;
+	}
+	.relogio p {
+		font-size: 1.5em;
+	}
+
+	.logos img {
+ 	   width: 80%;
+ 	   margin-top: 18px;
 	}
 
 	.bandeira {
@@ -464,39 +474,17 @@ float: right;
 		margin-left: 1.5em;
 
 	}
-	.event .event-time
-	{
-		font-size: 0.7em;
+
+	.viagem {
+  	  width: 100%;
 	}
 
-	.social div{
-		padding: 0px 34px;
+	.agencia {
+  	  width: 100%!important;
 	}
 
-	.address {
-		width: 130%;
-	}
-	.register-now a.button{
-		padding: 0 13px!important;
-	}
-
-	.schedule ul li a{
-		font-size: 0.8em!important;
-	}
-
-	#subtitulo{
-		font-size: 0.49em;
-	}
-
-	.bfix{
-		font-size: 0.6em;
-	}
-
-	.globallogo {
-		left: 12em;
-	}
-	.abimexlogo {
-		right: -1em;
+	.noticias{
+		width:100%;
 	}
 }
 
@@ -504,7 +492,16 @@ float: right;
 {
 
 	.header {
-		height: 70em;
+   	 height: 126em;
+	}
+
+	.header ul {
+    	padding: 15px 55px;
+	}
+
+
+	.relogio p {
+   		 font-size: 1.4em;
 	}
 
 	.revista{
@@ -516,54 +513,33 @@ float: right;
 		left: 16.6em;
 	}
 
-	.register-now {
-
-		font-size: 1em;
-
-	}
-
-	.bfix {
-		font-size: 0.5em;
-	}
-
-	.globallogo {
-		left: 11em;
-	}
 }
 
 @media (max-width: 321px)
 {	
-	
+
 	.header {
-		height: 68em;
+		height: 115em;
 	}
-	
-	.credenciamento {
-		width: 50%;
+
+	.header ul li a {
+  	  font-size: 10.1px;
+   	  margin-left: -3.5em;
 	}
 
 	.bandeira {
 		left: 13.5em;
+		width: 33%;
 
+	}
+
+	.relogio p {
+    	font-size: 2.1em;
 	}
 	.revista{
 		margin-left: 1em;
 		bottom: 4px
 
-	}
-
-	.globallogo {
-		top: 1em;
-		left: 10.5em;
-	}
-
-	.abimexlogo {
-		right: -1em;
-	}
-
-	.direita {
-		width: 29%;
-		margin-left: 1em; 
 	}
 
 	.price h4 span
@@ -582,22 +558,5 @@ float: right;
 	.schedule ul li a{
 		font-size: 0.7em!important;
 	}
-	#subtitulo {
-		font-size: 0.45em;
-	}
 
-	.header .subtitle {
-		left: 12em;
-		width: 71%;
-
-	}
-	.bfix{
-		left: 2em;
-		font-size: 0.48em;
-
-	}
-	.when span 
-	{
-		font-size: 0.5em;
-	}
 }

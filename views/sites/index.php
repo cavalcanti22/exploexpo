@@ -111,8 +111,8 @@ var x = setInterval(function() {
   <div class="container">
 
     <center>
-      <img src="<?=site_url()?>resources/site/images/palestras.jpg" alt="palestrantes" style="width: 70%;" >
-      <a href="https://www.hbatools.com.br/Home/ChangeLanguageInscricao/33?lang=pt" target="_blank" > <img src="<?=site_url()?>resources/site/images/inscricao.jpg" alt="Inscrição" style="width: 70%;margin-bottom: 3em" ></a>
+      <img src="<?=site_url()?>resources/site/images/palestras.jpg" alt="palestrantes" class="palestrantes"" >
+      <a href="https://www.hbatools.com.br/Home/ChangeLanguageInscricao/33?lang=pt" target="_blank" > <img src="<?=site_url()?>resources/site/images/inscricao.jpg" alt="Inscrição"  class="botao_insc" ></a>
     </center>
 
     <h3 style="text-align: center"><a href="http://mistralgo.com/" target="_blank"><img src="<?=site_url()?>resources/site/images/agencia.png" alt="MistralGo" class="agencia" ></a></h3>
@@ -121,7 +121,7 @@ var x = setInterval(function() {
 
     <h3 style="text-align: center"><a href="https://www.itmice.tur.br/explotech2018" target="_blank"><img src="<?=site_url()?>resources/site/images/itmice.jpg" alt="MistralGo" class="viagem" ></a></h3>
 
-    <h3 style="text-align: center"><a href="<?=site_url()?>Sites/Noticias"><img style="max-width: 50%" src="<?=site_url()?>resources/site/images/noticiasbr.png" ></a></h3>
+    <h3 style="text-align: center"><a href="<?=site_url()?>Sites/Noticias"><img class="noticias" src="<?=site_url()?>resources/site/images/noticiasbr.png" ></a></h3>
 
     <?php foreach ($noticias as $noticia ): ?>
       <ul style="list-style-type: none;"><li><a href="<?=site_url()?>Sites/Noticias/#<?=$noticia['id']?>" style="text-decoration: none" target="_blank"><p><?=$noticia['titulo']?>  <?=$noticia['horario']?>  <i class="fa fa-mouse-pointer"></i></p></a></li></ul>
