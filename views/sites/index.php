@@ -5,7 +5,7 @@
 
     <div class="container">
 
-      <a href="<?=site_url()?>Sites/ingles"><img class="bandeira"  src="<?=site_url()?>resources/site/images/eua_flag.png"></a><!-- <p style="color:#4f81bd;font-size: 5em;">2018</p> -->
+      <a href="<?=site_url()?>Sites/ingles"><img class="bandeira"  src="<?=site_url()?>resources/site/images/eua_flag.png"></a> 
 
       <div class="banner">
         <center>
@@ -30,15 +30,22 @@
             </li>
           </ul>
         </div>
+        <div class="frase">
+          <center>
+            <img src="<?=site_url()?>resources/site/images/signin_texto.jpg" alt="">
+          </center>
+        </div>
         <center>
-         <a href="http://www.hbatools2.com.br/tools/credenciamento/formulario.asp?e=EXPLOTECH&pro=1" target="_blank">
+              <a href="http://www.hbatools2.com.br/tools/credenciamento/formulario.asp?e=EXPLOTECH&pro=1" target="_blank">
           <img src="<?=site_url()?>resources/site/images/cred.jpg" alt="">
         </a>
         <a href="https://www.hbatools.com.br/Home/ChangeLanguageInscricao/33?lang=pt">
           <img src="<?=site_url()?>resources/site/images/insc.jpg" alt="">
         </a>
-      </center>
+        </center>
     </div>
+
+<!--------------------------------------------------------- RELÓGIO -->
 
     <!-- Display the countdown timer in an element -->
 
@@ -48,7 +55,7 @@
 
     <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Oct 16, 2019 15:37:25").getTime();
+var countDownDate = new Date("Oct 16, 2018 15:37:25").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -77,21 +84,22 @@ var x = setInterval(function() {
 }, 1000);
 </script>
 
+<!--------------------------------------------------------- RELÓGIO -->
 
     <div class="logos">
-      <a href="http://globalevents1959.com/">
-        <img class="globallogo"  src="<?=site_url()?>resources/site/images/global_header_.png"></a>
-      <a href="http://abimex.ind.br">
-        <img class="abimexlogo"  src="<?=site_url()?>resources/site/images/abimex_ise.png">
+     <center>
+       <a href="http://globalevents1959.com/">
+        <img class="globallogo"  src="<?=site_url()?>resources/site/images/global_header_.png">
       </a>
-    </div>
-     <div class="logos">
-      <a href="http://globalevents1959.com/">
-        <img class="globallogo"  src="<?=site_url()?>resources/site/images/global_header_.png"></a>
       <a href="http://abimex.ind.br">
-        <img class="abimexlogo"  src="<?=site_url()?>resources/site/images/abimex_ise.png">
+        <img class="abimexlogo"  src="<?=site_url()?>resources/site/images/frei_caneca_2.png">
       </a>
+      <a href="http://abimex.ind.br">
+        <img class="abimexlogo"  src="<?=site_url()?>resources/site/images/global_header_2.png">
+      </a>
+     </center>
     </div>
+ 
 </div> <!-- container -->
 </div>
 <!-- header ends -->

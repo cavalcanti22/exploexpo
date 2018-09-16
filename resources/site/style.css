@@ -152,7 +152,7 @@ a {
   /*background: #888888 url("images/silver.jpg") 50% 0 no-repeat fixed;*/
   /*background: #888888 url("images/degrade.jpg") 50% 0 no-repeat fixed;*/
   /*background: #888888 url("images/grey.jpg") 50% 0 no-repeat fixed;*/
-  background: #888888 url("images/fundo.jpeg") 50% 0 no-repeat fixed;
+  background: #888888 url("images/fundo.jpeg") 50% 0 repeat fixed;
   background-size: cover;
   color: white;
   z-index: 1000;
