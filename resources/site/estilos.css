@@ -116,6 +116,16 @@ float: right;
 	}
 }
 
+@media (max-width: 1280px)
+{
+	.header{
+		height: 106em;
+	}
+	.header ul li {
+   	 margin-left: 16em;
+	}
+}
+
 @media (max-width: 1024px)
 {	
 	
@@ -243,6 +253,10 @@ float: right;
 	.banner img {
 		width: 44%;
 	}
+
+	.relogio p {
+   	 font-size: 2.6em;
+	}
 	
 	.revista {
 		margin-left: 1.2em;
@@ -289,9 +303,13 @@ float: right;
 		height: 119em;
 	}
 
-	header .signin ul li {
-		margin-left: 4em;
+	
+
+	.header .signin ul li {
+    	margin-left: 3.5em;
 	}
+
+
 
 	.logos img {
 		width: 50%;
@@ -299,7 +317,7 @@ float: right;
 	}
 
 	.relogio p {
-		font-size: 2.7em;
+		font-size: 2.5em;
 	}
 }
 
@@ -316,11 +334,11 @@ float: right;
 	}
 
 	.header .signin ul li {
-		margin-left: 3em;
+		margin-left: 2.6em;
 	}
 
 	.relogio p {
-		font-size: 2.6em;
+		font-size: 2.3em;
 	}
 
 	
@@ -334,7 +352,7 @@ float: right;
 {	
 
 	.header .signin ul li {
-		margin-left: 1em;
+    	margin-left: 0.4em;
 	}
 
 	.signin img {
@@ -343,7 +361,7 @@ float: right;
 	}
 
 	.relogio p {
-		font-size: 2.3em;
+		font-size: 2em;
 	}
 	.revista {
 		margin-left: 1.3em;
@@ -366,7 +384,7 @@ float: right;
 	}
 
 	.header .signin ul li {
-		margin-left: 0.5em;
+		margin-left: 4em;
 	}	
 	
 	.bandeira {
@@ -374,7 +392,7 @@ float: right;
 	}
 
 	.relogio p {
-		font-size: 2.1em;
+		font-size: 1.8em;
 	}
 	.revista {
 		margin-left: 1.1em;
@@ -402,7 +420,7 @@ float: right;
 	}
 
 	.relogio p {
-		font-size: 1.8em;
+		font-size: 1.5em;
 	}
 
 	.palestrantes{
@@ -438,8 +456,14 @@ float: right;
 
 @media (max-width: 412px)
 {
+
+	.header .signin ul li {
+    	margin-left: 2em;
+    	margin-top: 1px;
+ 	   padding-top: 5px;
+	}
 	.relogio p {
-		font-size: 1.7em;
+		font-size: 1.5em;
 	}
 }
 @media (max-width: 376px)
@@ -454,11 +478,16 @@ float: right;
 		margin-left: -1.5em;
 	}
 
+	.header .signin ul li {
+   	 	margin-left: 3em;
+    
+	}
+
 	.banner img {
     	width: 100%;
 	}
 	.relogio p {
-		font-size: 1.5em;
+		font-size: 1.3em;
 	}
 
 	.logos img {
@@ -534,7 +563,7 @@ float: right;
 	}
 
 	.relogio p {
-    	font-size: 2.1em;
+    	font-size: 2em;
 	}
 	.revista{
 		margin-left: 1em;

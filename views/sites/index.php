@@ -39,7 +39,7 @@
               <a href="http://www.hbatools2.com.br/tools/credenciamento/formulario.asp?e=EXPLOTECH&pro=1" target="_blank">
           <img src="<?=site_url()?>resources/site/images/cred.jpg" alt="">
         </a>
-        <a href="https://www.hbatools.com.br/Home/ChangeLanguageInscricao/33?lang=pt">
+        <a href="https://www.hbatools.com.br/Home/ChangeLanguageInscricao/33?lang=pt" target="_blank">
           <img src="<?=site_url()?>resources/site/images/insc.jpg" alt="">
         </a>
         </center>
