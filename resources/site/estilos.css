@@ -1,5 +1,5 @@
 .header{
-	height: 88em;
+	height: 80em;
 }
 
 .banner{
@@ -112,14 +112,14 @@ float: right;
 	}
 
 	.header {
-		height: 106em;
+		height: 94em;
 	}
 }
 
 @media (max-width: 1280px)
 {
 	.header{
-		height: 106em;
+		height: 93em;
 	}
 	.header ul li {
    	 margin-left: 16em;
@@ -130,7 +130,7 @@ float: right;
 {	
 	
 	.header {
-		height: 92em;
+		height: 80em;
 	}
 	.header ul li {
 		margin-left: 12.5em;
@@ -183,7 +183,7 @@ float: right;
 	}
 
 	.header {
-		height: 82em;
+		height: 64em;
 	}
 
 	.revista {
@@ -216,7 +216,7 @@ float: right;
 	}
 
 	.header {
-		height: 72em;
+		height: 63em;
 	}
 
 	.fixtudo{
@@ -242,8 +242,8 @@ float: right;
 {
 
 	.header {
-		height: 68em;
-		;
+		height: 61em;
+		
 	}
 	
 	.header .signin ul li {
@@ -271,11 +271,13 @@ float: right;
 @media (max-width: 640px)
 {
 
-
-	.credenciamento {
-		top: -28em;
-		width: 64%;
+	.header {
+		height: 63em;
+		
 	}
+
+	
+	
 	.revista {
 		margin-left: 1.2em;
 	}
@@ -300,7 +302,7 @@ float: right;
 	}
 
 	.header {
-		height: 119em;
+		height: 113em;
 	}
 
 	
@@ -325,7 +327,7 @@ float: right;
 {
 
 	.header {
-		height: 116em;
+		height: 107em;
 	}
 
 
@@ -351,6 +353,9 @@ float: right;
 @media (max-width: 510px)
 {	
 
+	.header {
+    	height: 113em;
+	}
 	.header .signin ul li {
     	margin-left: 0.4em;
 	}
@@ -380,7 +385,7 @@ float: right;
 	}
 
 	.header {
-		height: 111em;
+		height: 107em;
 	}
 
 	.header .signin ul li {
@@ -404,7 +409,7 @@ float: right;
 {	
 	
 	.header {
-		height: 120em;
+		height: 114em;
 	}
 
 	.header .signin ul li {
@@ -456,7 +461,9 @@ float: right;
 
 @media (max-width: 412px)
 {
-
+	.header {
+	    height: 114em;
+	}
 	.header .signin ul li {
     	margin-left: 2em;
     	margin-top: 1px;
@@ -465,12 +472,13 @@ float: right;
 	.relogio p {
 		font-size: 1.5em;
 	}
+
 }
 @media (max-width: 376px)
 {
 
 	.header {
-	    height: 126em;
+	    height: 123em;
 	}
 
 	.header ul li a {
@@ -530,7 +538,7 @@ float: right;
 
 
 	.relogio p {
-   		 font-size: 1.4em;
+   		 font-size: 1.2em;
 	}
 
 	.revista{
@@ -548,7 +556,7 @@ float: right;
 {	
 
 	.header {
-		height: 115em;
+		height: 112em;
 	}
 
 	.header ul li a {
