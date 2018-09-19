@@ -99,6 +99,22 @@ right: 5em;*/
 float: right;
 }
 
+/*h3 do apoio institucional e operacional*/
+.h2parceiros{
+
+	color: #000!important;
+    padding: 0 0px!important;
+    font-size: 3em;
+    margin-bottom: 0.5em!important;
+
+}
+
+.patrocinadores{
+	width: 100%;
+	height: auto;
+}
+    
+
 @media (min-width: 1440px)
 {
 	.header .subtitle {
