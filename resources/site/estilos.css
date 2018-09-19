@@ -110,7 +110,7 @@ float: right;
 }
 
 .patrocinadores{
-	width: 100%;
+	width: 70%;
 	height: auto;
 }
     
@@ -337,6 +337,14 @@ float: right;
 	.relogio p {
 		font-size: 2.5em;
 	}
+	.patrocinadores{
+		width: 100%;
+	
+	}
+
+	.h2parceiros {
+     	font-size: 2em;
+    }
 }
 
 @media (max-width: 568px)
