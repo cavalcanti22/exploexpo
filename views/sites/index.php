@@ -862,7 +862,7 @@ Quisque gravida libero sodales augue luctus elementum. In tristique faucibus dia
     <div class="socialdiv">
       <h2>Explo Tech 2018</h2>
       <p class="subtitle"><b>16 E 17 DE OUTUBRO DE 2018</b> <br/>         
-        <img style="max-width: 25%" src="<?=site_url()?>resources/site/images/feicaneca.png"> </p>
+        <img  src="<?=site_url()?>resources/site/images/feicaneca.png"> </p>
       </div>
 
     </div>
