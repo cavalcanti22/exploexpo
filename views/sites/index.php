@@ -36,24 +36,24 @@
           </center>
         </div>
         <center>
-              <a href="http://www.hbatools2.com.br/tools/credenciamento/formulario.asp?e=EXPLOTECH&pro=1" target="_blank">
-          <img src="<?=site_url()?>resources/site/images/cred.jpg" alt="">
-        </a>
-        <a href="https://www.hbatools.com.br/Home/ChangeLanguageInscricao/33?lang=pt" target="_blank">
-          <img src="<?=site_url()?>resources/site/images/insc.jpg" alt="">
-        </a>
+          <a href="http://www.hbatools2.com.br/tools/credenciamento/formulario.asp?e=EXPLOTECH&pro=1" target="_blank">
+            <img src="<?=site_url()?>resources/site/images/cred.jpg" alt="">
+          </a>
+          <a href="https://www.hbatools.com.br/Home/ChangeLanguageInscricao/33?lang=pt" target="_blank">
+            <img src="<?=site_url()?>resources/site/images/insc.jpg" alt="">
+          </a>
         </center>
-    </div>
+      </div>
 
-<!--------------------------------------------------------- RELÓGIO -->
+      <!--------------------------------------------------------- RELÓGIO -->
 
-    <!-- Display the countdown timer in an element -->
+      <!-- Display the countdown timer in an element -->
 
-    <div class="relogio">
-      <p id="demo"></p>
-    </div>
+      <div class="relogio">
+        <p id="demo"></p>
+      </div>
 
-    <script>
+      <script>
 // Set the date we're counting down to
 var countDownDate = new Date("Oct 16, 2018 15:37:25").getTime();
 
@@ -86,20 +86,20 @@ var x = setInterval(function() {
 
 <!--------------------------------------------------------- RELÓGIO -->
 
-    <div class="logos">
-     <center>
-       <a href="http://globalevents1959.com/">
-        <img class="globallogo"  src="<?=site_url()?>resources/site/images/global_header_.png">
-      </a>
-      <a href="http://abimex.ind.br">
-        <img class="abimexlogo"  src="<?=site_url()?>resources/site/images/frei_caneca_2.png">
-      </a>
-      <a href="http://abimex.ind.br">
-        <img class="abimexlogo"  src="<?=site_url()?>resources/site/images/global_header_2.png">
-      </a>
-     </center>
-    </div>
- 
+<div class="logos">
+ <center>
+   <a href="http://globalevents1959.com/">
+    <img class="globallogo"  src="<?=site_url()?>resources/site/images/global_header_.png">
+  </a>
+  <a href="http://abimex.ind.br">
+    <img class="abimexlogo"  src="<?=site_url()?>resources/site/images/frei_caneca_2.png">
+  </a>
+  <a href="http://abimex.ind.br">
+    <img class="abimexlogo"  src="<?=site_url()?>resources/site/images/global_header_2.png">
+  </a>
+</center>
+</div>
+
 </div> <!-- container -->
 </div>
 <!-- header ends -->
@@ -111,7 +111,7 @@ var x = setInterval(function() {
   <div class="container">
 
     <center>
-      <img src="<?=site_url()?>resources/site/images/palestras.jpg" alt="palestrantes" class="palestrantes"" >
+      <img src="<?=site_url()?>resources/site/images/palestrantes.jpg" alt="palestrantes" class="palestrantes"" >
       <a href="https://www.hbatools.com.br/Home/ChangeLanguageInscricao/33?lang=pt" target="_blank" > <img src="<?=site_url()?>resources/site/images/inscricao.jpg" alt="Inscrição"  class="botao_insc" ></a>
     </center>
 
@@ -868,17 +868,20 @@ Quisque gravida libero sodales augue luctus elementum. In tristique faucibus dia
     </div>
     <!-- info -->
     <div class="info" style="margin-top: 10em;text-align: center;padding-bottom: 4em;padding-top: 2em;">
-
+     <h3  class="h2parceiros" ><center>EXPOSITORES</center></h3>
+        <img src="<?=site_url()?>resources/site/images/banner.jpg" alt="patrocinadores" class="patrocinadores"" >
       <h3  class="h2parceiros" ><center>APOIO INSTITUCIONAL</center></h3>
 
-      <div class="address animated fadeInRight" style="width: 100%;text-align: center;" >
 
-        <?php foreach ($imagens3 as $i3): ?>
-         <a target="_blank" href="<?=$i3['link']?>"> <img class="imgfix " src="<?=site_url().$i3['imagem']?>" style="max-width: 100%;max-height: 100px;"></a>
-       <?php endforeach ?>
 
-     </div>
+    <div class="address animated fadeInRight" style="width: 100%;text-align: center;" >
+
+      <?php foreach ($imagens3 as $i3): ?>
+       <a target="_blank" href="<?=$i3['link']?>"> <img class="imgfix " src="<?=site_url().$i3['imagem']?>" style="max-width: 100%;max-height: 100px;"></a>
+     <?php endforeach ?>
 
    </div>
+
  </div>
+</div>
 <!-- social ends! -->
