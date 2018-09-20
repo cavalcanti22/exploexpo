@@ -8,8 +8,8 @@
 		// private $usuario = "exploexpo";
 		private $senha = "";
 		// private $senha = "vitoria22";
-		// private $db = "explo";
-		private $db = "exploexpo";
+		private $db = "explo";
+		// private $db = "exploexpo";
 
 		public function execute($q){
 			

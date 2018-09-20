@@ -10,75 +10,109 @@
       <a href="<?=site_url()?>"><img class="bandeira"  src="<?=site_url()?>resources/site/images/br_flag.png"></a><!-- <p style="color:#4f81bd;font-size: 5em;">2018</p> -->
       <!-- <p class="subtitle " id="subtitulo" style="color:#000;" ><b><?=$header['titulo']?></b></p> -->
 
-      <div class="links">
-        <div class="row">
-
-       <center>
-           <a href="#" target="_blank"> 
-            <img class="esquerda"  src="<?=site_url()?>resources/site/images/logo_explo_eua.png">
+       <div class="banner">
+        <center>
+          <a href="#" target="_blank"> 
+            <img class=""  src="<?=site_url()?>resources/site/images/logo_explo.png">
           </a>
-
           <a href="" target="_blank">
-            <img class="direita"  src="<?=site_url()?>resources/site/images/isseeua.png">
+            <img class=""  src="<?=site_url()?>resources/site/images/ISSE_2018.png">
           </a>
+        </center>
       </div>
-      <div class="row" style="width: 100%;">
-
-         <a href="http://globalevents1959.com/"><img class="globallogo"  src="<?=site_url()?>resources/site/images/global_header_.png"></a>
-      <a href="http://abimex.ind.br"><img class="abimexlogo"  src="<?=site_url()?>resources/site/images/abimex_ise.png"></a>
-
-      </div>
-    </div>
 
 
-    <div class="fixtudo" style="margin-top: 10em;">
-      <div class="when">
-        <div class="icon-holder">
-          <i class="fa fa-calendar"></i>
+      <div class="signin">
+        <div class="botoes">
+          <ul>
+            <li>
+              <a href="#location">HOW PARTICIPATE</a>
+            </li>
+            <li>
+              <a href="#form">I WANT PARTICIPATE</a>
+            </li>
+          </ul>
         </div>
-        <div >
-          <p ><strong >When</strong></p><br/>
-          <p style="color:#000;"><span ><?=$header['subtitulo']?></span></p>
+        <div class="frase">
+          <center>
+            <img src="<?=site_url()?>resources/site/images/signin_texto_en.jpg" alt="">
+          </center>
         </div>
-
+        <center>
+          <a href="https://www.hbatools.com.br/Home/ChangeLanguageInscricao/33?lang=pt" target="_blank">
+            <img src="<?=site_url()?>resources/site/images/cred2_en.jpg" alt="">
+          </a>
+          <a href="https://www.hbatools.com.br/Home/ChangeLanguageInscricao/33?lang=pt" target="_blank">
+            <img src="<?=site_url()?>resources/site/images/cred_en.jpg" alt="">
+          </a>
+        </center>
       </div>
 
-      <div class="where">
+      <!--------------------------------------------------------- RELÓGIO -->
 
-        <div class="icon-holder">
-          <i class="fa fa-map-marker"></i>
-        </div>
+      <!-- Display the countdown timer in an element -->
 
-        <div style="">
-          <p ><strong >Where</strong></p>
-          <p style="margin-top: 0.2em;"><a class="" style="color:#000;" href="https://www.google.com.br/maps/place/Centro+de+Conven%C3%A7%C3%B5es+Frei+Caneca/@-23.5539631,-46.655073,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce58353b285069:0x1113710f04f14eba!8m2!3d-23.5539631!4d-46.6528843" target="_blank"><img style="max-width: 24%" src="<?=site_url()?>resources/site/images/feicaneca.png"></a><b class="bfix" ">
-          Contact us for more information</b></p>
-          <p style="color:#000;"></p>
-
-        </div>
-
+      <div class="relogio">
+        <p id="demo"></p>
       </div>
 
-      <div class="register-now">
-        <a href="#form" class="button botao1en" style="background: #4f81bd;border:3px solid #385d8a;">Enrollment</a>
-        <a href="#location" class="button botao2en" style="background: #1d7aa9;border:3px solid #385d8a;">how to participate</a>
-      </div>
-    </div>
+      <script>
+// Set the date we're counting down to
+var countDownDate = new Date("Oct 16, 2018 15:37:25").getTime();
 
-    
-  </div>
-  <center>
-  
- <a href="http://www.hbatools2.com.br/tools/credenciamento/formulario.asp?lang=en&e=EXPLOTECH&pro=1" target="_blank" > <img class="credenciamento" src="<?=site_url()?>resources/site/images/registration.jpg" alt="credenciamento"></a>
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + " dias " + hours + " horas "
+  + minutes + " min"+ " Lefting";
+
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+<!--------------------------------------------------------- RELÓGIO -->
+
+<div class="logos">
+ <center>
+   <a href="http://globalevents1959.com/">
+    <img class="globallogo"  src="<?=site_url()?>resources/site/images/global_header_.png">
+  </a>
+  <a href="http://abimex.ind.br">
+    <img class="abimexlogo"  src="<?=site_url()?>resources/site/images/frei_caneca_2.png">
+  </a>
+  <a href="http://abimex.ind.br">
+    <img class="abimexlogo"  src="<?=site_url()?>resources/site/images/global_header_2.png">
+  </a>
 </center>
 </div>
+
+</div> <!-- container -->
+</div>
 <!-- header ends -->
+
 
 <!-- topics -->
 <div class="topics" style="margin-top: 5em;">
   <div class="container">
       <center>
-      <img src="<?=site_url()?>resources/site/images/palestras.jpg" alt="palestrantes" style="width: 70%;" >
+      <img src="<?=site_url()?>resources/site/images/palestrantes.jpg" alt="palestrantes" class="palestrantes" >
       <a href="https://www.hbatools.com.br/Home/ChangeLanguageInscricao/33?lang=en
 " target="_blank" > <img src="<?=site_url()?>resources/site/images/signup.jpg" alt="Inscrição" style="width: 70%;margin-bottom: 3em" ></a>
     </center>
@@ -800,8 +834,9 @@
    </div>
    <!-- info -->
    <div class="info" style="margin-top: 10em;text-align: center;padding-bottom: 4em;padding-top: 2em;">
-
-     <h3  class="h2parceiros" ><center>INSTITUTIONAL SUPPORT</center></h3>
+      <h3  class="h2parceiros" ><center>EXHIBITORS</center></h3>
+        <img src="<?=site_url()?>resources/site/images/banner.jpg" alt="patrocinadores" class="patrocinadores" >
+     <h3  class="h2parceiros" style="margin-top: 2em;"><center>INSTITUTIONAL SUPPORT</center></h3>
 
      <div class="address animated fadeInRight" style="width: 100%;text-align: center;" >
 
