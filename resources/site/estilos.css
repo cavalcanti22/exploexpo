@@ -187,7 +187,7 @@ float: right;
 {
 
 	.header .signin ul li {
-		margin-left: 6.7em;
+		margin-left: 8em;
 	}
 	.credenciamento {
 		top: -42em;
@@ -219,7 +219,7 @@ float: right;
 {
 
 	.header .signin ul li {
-		margin-left: 5.9em;
+		margin-left: 6.6em;
 	}
 
 	.agencia{
@@ -328,7 +328,7 @@ float: right;
 	
 
 	.header .signin ul li {
-    	margin-left: 3.5em;
+    	margin-left: 2.5em;
 	}
 
 
@@ -372,7 +372,7 @@ float: right;
 	}
 
 	.header .signin ul li {
-		margin-left: 2.6em;
+		margin-left: 1.8em;
 	}
 
 	.relogio p {
@@ -393,7 +393,7 @@ float: right;
     	height: 113em;
 	}
 	.header .signin ul li {
-    	margin-left: 0.4em;
+    	margin-left: 5.4em;
 	}
 
 	.signin img {
@@ -425,7 +425,7 @@ float: right;
 	}
 
 	.header .signin ul li {
-		margin-left: 4em;
+		margin-left: 4.5em;
 	}	
 	
 	.bandeira {
@@ -449,7 +449,7 @@ float: right;
 	}
 
 	.header .signin ul li {
-		margin-left: 2em;
+		margin-left: 2.3em;
 		margin-top: 1px;
 		padding-top: 5px;
 	}
@@ -523,7 +523,7 @@ float: right;
 	}
 
 	.header .signin ul li {
-   	 	margin-left: 2.4em;
+   	 	margin-left: 2.8em;
     
 	}
 
@@ -572,6 +572,10 @@ float: right;
     	padding: 15px 55px;
 	}
 
+	.header .signin ul li {
+    	margin-left: 2.36em;
+	}
+
 
 	.relogio p {
    		 font-size: 1.2em;
@@ -596,7 +600,8 @@ float: right;
 	}
 
 	.header .signin ul li {
-    	margin-left: 2.5em;
+    	margin-left: 3.2em;
+    	padding-top: 0;
 	}
 
 	.header ul li a {
