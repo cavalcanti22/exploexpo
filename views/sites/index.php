@@ -111,7 +111,7 @@ var x = setInterval(function() {
   <div class="container">
 
     <center>
-      <img src="<?=site_url()?>resources/site/images/palestrantes.jpg" alt="palestrantes" class="palestrantes"" >
+      <img src="<?=site_url()?>resources/site/images/palestrantes.jpg" alt="palestrantes" class="palestrantes" >
       <a href="https://www.hbatools.com.br/Home/ChangeLanguageInscricao/33?lang=pt" target="_blank" > <img src="<?=site_url()?>resources/site/images/inscricao.jpg" alt="Inscrição"  class="botao_insc" ></a>
     </center>
 
@@ -869,7 +869,7 @@ Quisque gravida libero sodales augue luctus elementum. In tristique faucibus dia
     <!-- info -->
     <div class="info" style="margin-top: 10em;text-align: center;padding-bottom: 4em;padding-top: 2em;">
      <h3  class="h2parceiros" ><center>EXPOSITORES</center></h3>
-        <img src="<?=site_url()?>resources/site/images/banner.jpg" alt="patrocinadores" class="patrocinadores"" >
+        <img src="<?=site_url()?>resources/site/images/banner.jpg" alt="patrocinadores" class="patrocinadores" >
       <h3  class="h2parceiros" style="margin-top: 2em;"><center>APOIO INSTITUCIONAL</center></h3>
 
 
