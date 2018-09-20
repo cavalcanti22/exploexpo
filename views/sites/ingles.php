@@ -39,10 +39,10 @@
           </center>
         </div>
         <center>
-          <a href="https://www.hbatools.com.br/Home/ChangeLanguageInscricao/33?lang=pt" target="_blank">
+          <a href="https://www.hbatools.com.br/Home/ChangeLanguageInscricao/33?lang=en" target="_blank">
             <img src="<?=site_url()?>resources/site/images/cred2_en.jpg" alt="">
           </a>
-          <a href="https://www.hbatools.com.br/Home/ChangeLanguageInscricao/33?lang=pt" target="_blank">
+          <a href="https://www.hbatools.com.br/Home/ChangeLanguageInscricao/33?lang=en" target="_blank">
             <img src="<?=site_url()?>resources/site/images/cred_en.jpg" alt="">
           </a>
         </center>
