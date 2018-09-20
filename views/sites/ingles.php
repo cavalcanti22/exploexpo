@@ -834,7 +834,7 @@ var x = setInterval(function() {
    </div>
    <!-- info -->
    <div class="info" style="margin-top: 10em;text-align: center;padding-bottom: 4em;padding-top: 2em;">
-      <h3  class="h2parceiros" ><center>EXHIBITORS</center></h3>
+      <!-- <h3  class="h2parceiros" ><center>EXHIBITORS</center></h3> -->
         <img src="<?=site_url()?>resources/site/images/banner.jpg" alt="patrocinadores" class="patrocinadores" >
      <h3  class="h2parceiros" style="margin-top: 2em;"><center>INSTITUTIONAL SUPPORT</center></h3>
 
