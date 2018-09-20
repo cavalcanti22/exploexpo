@@ -156,8 +156,8 @@ a {
   background-size: cover;
   color: white;
   z-index: 1000;
-  -webkit-clip-path: polygon(0% 100%, 0% 0%, 100% 0%, 100% 80%);
-  clip-path: polygon(0% 100%, 0% 0%, 100% 0%, 100% 80%);
+  /*-webkit-clip-path: polygon(0% 100%, 0% 0%, 100% 0%, 100% 80%);*/
+  /*clip-path: polygon(0% 100%, 0% 0%, 100% 0%, 100% 80%);*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

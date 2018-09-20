@@ -128,14 +128,14 @@ float: right;
 	}
 
 	.header {
-		height: 94em;
+		height: 80em;
 	}
 }
 
 @media (max-width: 1280px)
 {
 	.header{
-		height: 93em;
+		height: 84em;
 	}
 	.header ul li {
    	 margin-left: 16em;
@@ -146,7 +146,7 @@ float: right;
 {	
 	
 	.header {
-		height: 80em;
+		height: 72em;
 	}
 	.header ul li {
 		margin-left: 12.5em;
@@ -199,7 +199,7 @@ float: right;
 	}
 
 	.header {
-		height: 64em;
+		height: 57em;
 	}
 
 	.revista {
@@ -236,7 +236,7 @@ float: right;
 	}
 
 	.header {
-		height: 63em;
+		height: 54em;
 	}
 
 	.fixtudo{
@@ -262,7 +262,7 @@ float: right;
 {
 
 	.header {
-		height: 61em;
+		height: 54em;
 		
 	}
 	
@@ -292,7 +292,7 @@ float: right;
 {
 
 	.header {
-		height: 63em;
+		height: 55em;
 		
 	}
 
@@ -322,7 +322,7 @@ float: right;
 	}
 
 	.header {
-		height: 113em;
+		height: 99em;
 	}
 
 	
@@ -363,7 +363,7 @@ float: right;
 {
 
 	.header {
-		height: 107em;
+		height: 93em;
 	}
 
 
@@ -390,7 +390,7 @@ float: right;
 {	
 
 	.header {
-    	height: 113em;
+    	height: 100em;
 	}
 	.header .signin ul li {
     	margin-left: 5.4em;
@@ -421,7 +421,7 @@ float: right;
 	}
 
 	.header {
-		height: 107em;
+		height: 94em;
 	}
 
 	.header .signin ul li {
@@ -498,7 +498,7 @@ float: right;
 @media (max-width: 412px)
 {
 	.header {
-	    height: 114em;
+	    height: 112em;
 	}
 	.header .signin ul li {
     	margin-left: 2.6em;
@@ -565,7 +565,7 @@ float: right;
 {
 
 	.header {
-   	 height: 126em;
+   	 height: 119em;
 	}
 
 	.header ul {
