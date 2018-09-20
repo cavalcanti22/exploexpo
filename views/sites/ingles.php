@@ -29,7 +29,7 @@
               <a href="#location">HOW PARTICIPATE</a>
             </li>
             <li>
-              <a href="#form">I WANT PARTICIPATE</a>
+              <a href="#form">I WANT</a>
             </li>
           </ul>
         </div>
