@@ -878,8 +878,8 @@ a {
   padding-top: 500px;
   position: relative;
   z-index: 5;
-  -webkit-clip-path: polygon(0% 100%, 100% 100%, 100% 40%, 0% 0%);
-  clip-path: polygon(0% 100%, 100% 100%, 100% 35%, 0% 0%); }
+  /*-webkit-clip-path: polygon(0% 100%, 100% 100%, 100% 40%, 0% 0%);*/
+  /*clip-path: polygon(0% 100%, 100% 100%, 100% 40%, 0% 0%);*/ }
   .social .container {
     max-width: 100%;
     padding-top: 114px;

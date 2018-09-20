@@ -26,7 +26,7 @@
               <a href="#location">COMO PARTICIPAR</a>
             </li>
             <li>
-              <a href="#form">QUERO PARTICIPAR</a>
+              <a href="#form">QUERO IR</a>
             </li>
           </ul>
         </div>

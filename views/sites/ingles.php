@@ -828,7 +828,7 @@ var x = setInterval(function() {
     <div class="socialdiv">
       <h2>Explo Tech 2018</h2>
       <p class="subtitle"><b>October 16 and 17 of 2018</b> <br/>         
-       <img style="max-width: 25%" src="<?=site_url()?>resources/site/images/feicaneca.png"> </p>
+       <img  src="<?=site_url()?>resources/site/images/feicaneca.png"> </p>
      </div>
 
    </div>
