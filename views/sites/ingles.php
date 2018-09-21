@@ -35,7 +35,11 @@
         </div>
         <div class="frase">
           <center>
-            <img src="<?=site_url()?>resources/site/images/signin_texto_en.jpg" alt="">
+             <p>
+              Build Relationships, Expand Markets And Conduct Business In The  <br>
+              Integrated Events Of The Blasting And Driling Suplly
+            </p>
+          <!--   <img src="<?=site_url()?>resources/site/images/signin_texto_en.jpg" alt=""> -->
           </center>
         </div>
         <center>
@@ -76,8 +80,8 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + " dias " + hours + " horas "
-  + minutes + " min"+ " Lefting";
+  document.getElementById("demo").innerHTML = "Lefting "days + " dias " + hours + " hours "
+  + minutes + " min"+ ;
 
   // If the count down is finished, write some text 
   if (distance < 0) {
@@ -112,7 +116,7 @@ var x = setInterval(function() {
 <div class="topics" style="margin-top: 5em;">
   <div class="container">
       <center>
-      <img src="<?=site_url()?>resources/site/images/palestrantes.jpg" alt="palestrantes" class="palestrantes" >
+      <a href="<?=site_url()?>resources/site/images/palestrantes.jpg" alt="palestrantes"><img src="<?=site_url()?>resources/site/images/palestrantes.jpg" alt="palestrantes" target="_blank" class="palestrantes" ></a>
       <a href="https://www.hbatools.com.br/Home/ChangeLanguageInscricao/33?lang=en
 " target="_blank" > <img src="<?=site_url()?>resources/site/images/signup.jpg" alt="Inscrição" style="width: 70%;margin-bottom: 3em" ></a>
     </center>
@@ -833,7 +837,7 @@ var x = setInterval(function() {
 
    </div>
    <!-- info -->
-   <div class="info" style="margin-top: 10em;text-align: center;padding-bottom: 4em;padding-top: 2em;">
+   <div class="info" style="margin-top: 1em;text-align: center;padding-bottom: 4em;padding-top: 2em;">
       <!-- <h3  class="h2parceiros" ><center>EXHIBITORS</center></h3> -->
         <img src="<?=site_url()?>resources/site/images/banner.jpg" alt="patrocinadores" class="patrocinadores" >
      <h3  class="h2parceiros" style="margin-top: 2em;"><center>INSTITUTIONAL SUPPORT</center></h3>
