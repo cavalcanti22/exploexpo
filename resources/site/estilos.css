@@ -133,7 +133,11 @@ float: right;
 	}
 
 	.header ul li {
-		margin-left: 16.5em;
+		margin-left: 11em;
+	}
+
+	.header ul li a{
+		font-size: 2em;
 	}
 
 	.header {
@@ -144,11 +148,16 @@ float: right;
 @media (max-width: 1280px)
 {
 	.header{
-		height: 84em;
+		height: 77em;
 	}
 	.header ul li {
-   		 margin-left: 16em;
+   		 margin-left: 11em;
 	}
+
+	.header ul li a{
+		font-size: 2em;
+	}
+
 
 	.logos img{
 		width:25%;
@@ -159,10 +168,10 @@ float: right;
 {	
 	
 	.header {
-		height: 72em;
+		height: 66em;
 	}
 	.header ul li {
-		margin-left: 12.5em;
+		margin-left: 7em;
 
 	}
 
@@ -208,6 +217,15 @@ float: right;
 	.header .signin ul li {
 		margin-left: 8em;
 	}
+
+	.header ul li a {
+    	font-size: 1.3em;
+   
+	}
+
+	.header .signin ul li {
+    	margin-left: 5.5em;
+	}
 	.credenciamento {
 		top: -42em;
 		width: 42%;
@@ -222,7 +240,7 @@ float: right;
 	}
 
 	.header {
-		height: 57em;
+		height: 52em;
 	}
 
 	.logos img{
@@ -244,7 +262,12 @@ float: right;
 {
 
 	.header .signin ul li {
-		margin-left: 6.6em;
+		   margin-left: 6em;
+	}
+
+	.header ul li a {
+    	font-size: 1.1em;
+   
 	}
 
 	.frase p {
@@ -265,7 +288,7 @@ float: right;
 	}
 
 	.header {
-		height: 54em;
+		height: 48em;
 	}
 
 	.logos img{
@@ -300,7 +323,7 @@ float: right;
 	}
 	
 	.header .signin ul li {
-		margin-left: 4.5em;
+		margin-left: 3.3em;
 	}
 
 	.banner img {
@@ -368,7 +391,7 @@ float: right;
 	
 
 	.header .signin ul li {
-    	margin-left: 2.5em;
+    	margin-left: 3em;
 	}
 
 
@@ -412,7 +435,7 @@ float: right;
 	}
 
 	.header .signin ul li {
-		margin-left: 1.8em;
+		margin-left: 2em;
 	}
 
 		.frase p {
@@ -438,6 +461,10 @@ float: right;
 	}
 	.header .signin ul li {
     	margin-left: 5.4em;
+	}
+
+	.header ul li a {
+    	font-size: 1.2em;
 	}
 
 	.signin img {
@@ -502,6 +529,9 @@ float: right;
 		padding-top: 5px;
 	}
 
+	.header ul li a {
+    	font-size: 1em;
+	}
 
 	.bandeira {
 		left: 20.2em;
@@ -547,6 +577,10 @@ float: right;
 {
 	.header {
 	    height: 115em;
+	}
+
+	.header ul {
+    	padding: 6px 60px;
 	}
 	.header .signin ul li {
     	margin-left: 2.6em;
@@ -621,8 +655,10 @@ float: right;
 	}
 
 	.header ul {
-    	padding: 15px 55px;
+    	padding: 5px 55px;
 	}
+
+
 
 	.header .signin ul li {
     	margin-left: 3.1em;
@@ -648,7 +684,7 @@ float: right;
 {	
 
 	.header {
-		height: 112em;
+		height: 118em;
 	}
 
 	.header .signin ul li {
