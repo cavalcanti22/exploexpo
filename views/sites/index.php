@@ -32,7 +32,11 @@
         </div>
         <div class="frase">
           <center>
-            <img src="<?=site_url()?>resources/site/images/signin_texto.jpg" alt="">
+            <p>
+              Venha Construir Relacionamentos, Ampliar Mercados e Realizar Negócios Nos Eventos <br>
+              Integrados da Cadeia De Fornecedores Do Setor  De Explosivos 
+            </p>
+            <!-- <img src="<?=site_url()?>resources/site/images/signin_texto.jpg" alt=""> -->
           </center>
         </div>
         <center>
