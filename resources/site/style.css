@@ -185,7 +185,8 @@ a {
         text-transform: uppercase;
         font-weight: 300; }
         .header ul li a:hover, .header ul li a.active {
-          color: #fdbc2a; }
+          color: #4277B0;}
+        
   .header h1 {
     padding-top: 100px;
     margin-bottom: 0; }

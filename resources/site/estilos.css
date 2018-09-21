@@ -2,6 +2,10 @@
 	height: 80em;
 }
 
+  .header ul li:hover{
+            background-color: #FFC250;
+ }
+
 .banner{
 	width: 100%;
 	height: auto;
