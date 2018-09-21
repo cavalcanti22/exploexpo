@@ -77,7 +77,7 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = "Faltam: "+days + " dias " + hours + " horas "
+  document.getElementById("demo").innerHTML = "Faltam: "+ days + " dias " + hours + " horas "
   + minutes + " min";
 
   // If the count down is finished, write some text 
