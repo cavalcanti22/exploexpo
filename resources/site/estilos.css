@@ -75,7 +75,8 @@
 /*3 logos logo abaixo do contador
 */
 .logos img{
-	width:23%;
+	width:25%;
+	margin:3em;
 }
 .agencia{
 	width: 80%!important;
@@ -138,7 +139,11 @@ float: right;
 		height: 84em;
 	}
 	.header ul li {
-   	 margin-left: 16em;
+   		 margin-left: 16em;
+	}
+
+	.logos img{
+		width:25%;
 	}
 }
 
@@ -153,6 +158,10 @@ float: right;
 
 	}
 
+	.logos img{
+		width:23%;
+	}
+
 	.bandeira{
 		left: 57em;
 	}
@@ -165,6 +174,8 @@ float: right;
 		font-size: 1.2em;
 	}
 
+
+
 	.register-now{
 		text-align: center!important;
 		right: 7em;
@@ -176,11 +187,7 @@ float: right;
 
 	}
 
-	.globallogo{
-
-		right: -38em;
-
-	}
+	
 }
 
 @media (max-width: 812px)
@@ -202,6 +209,10 @@ float: right;
 		height: 57em;
 	}
 
+	.logos img{
+		width:20%;
+	}
+
 	.revista {
 		margin-left: 2.2em;
 	}
@@ -210,9 +221,7 @@ float: right;
 		left: 44.5em;
 	}
 
-	.globallogo {
-		right: -29em;
-	}
+
 }
 
 @media (max-width: 769px)
@@ -237,6 +246,10 @@ float: right;
 
 	.header {
 		height: 54em;
+	}
+
+	.logos img{
+		margin:2em;
 	}
 
 	.fixtudo{
@@ -274,6 +287,11 @@ float: right;
 		width: 44%;
 	}
 
+	.logos img{
+		width: 22%;
+	}
+
+
 	.relogio p {
    	 font-size: 2.6em;
 	}
@@ -306,9 +324,7 @@ float: right;
 		margin-left: 0em;
 	}
 
-	.globallogo {
-		left: 23em;
-	}
+	
 }
 
 @media only screen and (max-width: 600px) {
@@ -335,7 +351,7 @@ float: right;
 
 	.logos img {
 		width: 50%;
-		margin-top: 18px;
+		margin-top: 10px;
 	}
 
 	.relogio p {
@@ -536,7 +552,7 @@ float: right;
 
 	.logos img {
  	   width: 80%;
- 	   margin-top: 18px;
+ 	   margin-top: 11px;
 	}
 
 	.bandeira {
@@ -614,6 +630,10 @@ float: right;
 		left: 13.5em;
 		width: 33%;
 
+	}
+
+	.logos img {
+ 	   margin-top: 6px;
 	}
 
 	.relogio p {
