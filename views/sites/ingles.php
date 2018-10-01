@@ -118,9 +118,10 @@ var x = setInterval(function() {
   <div class="container">
       <center>
       <a href="<?=site_url()?>resources/site/images/palestrantes.jpg" alt="palestrantes"><img src="<?=site_url()?>resources/site/images/palestrantes.jpg" alt="palestrantes" target="_blank" class="palestrantes" ></a>
-      <a href="<?=site_url()?>resources/site/images/grade.jpg" alt="grade"><img src="<?=site_url()?>resources/site/images/grade.jpg" alt="grade" target="_blank" class="palestrantes" ></a> 
       <a href="https://www.hbatools.com.br/Home/ChangeLanguageInscricao/33?lang=en
 " target="_blank" > <img src="<?=site_url()?>resources/site/images/signup.jpg" alt="Inscrição" style="width: 70%;margin-bottom: 3em" ></a>
+      <a href="<?=site_url()?>resources/site/images/grade.jpg" alt="grade"><img src="<?=site_url()?>resources/site/images/grade.jpg" alt="grade" target="_blank" class="palestrantes" ></a> 
+      
     </center>
 
       <h3 style="text-align: center"><a href="http://mistralgo.com/" target="_blank"><img src="<?=site_url()?>resources/site/images/agencia.png" alt="MistralGo" class="agencia" ></a></h3>
