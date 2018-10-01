@@ -116,7 +116,7 @@ var x = setInterval(function() {
 
     <center>
       <a href="<?=site_url()?>resources/site/images/palestrantes.jpg" alt="palestrantes"><img src="<?=site_url()?>resources/site/images/palestrantes.jpg" alt="palestrantes" target="_blank" class="palestrantes" ></a>
-      <!--  <a href="<?=site_url()?>resources/site/images/grade.jpg" alt="grade"><img src="<?=site_url()?>resources/site/images/grade.jpg" alt="grade" target="_blank" class="palestrantes" ></a> -->
+      <a href="<?=site_url()?>resources/site/images/grade.jpg" alt="grade"><img src="<?=site_url()?>resources/site/images/grade.jpg" alt="grade" target="_blank" class="palestrantes" ></a> 
       <a href="https://www.hbatools.com.br/Home/ChangeLanguageInscricao/33?lang=pt" target="_blank" > <img src="<?=site_url()?>resources/site/images/inscricao.jpg" alt="Inscrição"  class="botao_insc" ></a>
     </center>
 
