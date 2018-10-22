@@ -294,6 +294,10 @@
 									<a href="<?=site_url()."Institucionais/index"?>"><i class="icon-versions"></i> <span>Imagens Institucionais</span></a>
 
 								</li>
+									<li>
+									<a href="<?=site_url()."Fotos/index"?>"><i class="icon-camera"></i> <span>Fotos Evento</span></a>
+
+								</li>
 								<li>
 									<a href="<?=site_url()."Usuarios/index"?>" id=""><i class="icon-people"></i> <span>Usuários</span></a>
 								</li>
@@ -328,6 +332,7 @@
 								<a href="<?=site_url()?>Operacionais/add" class="btn btn-link btn-float has-text"><i class="icon-stack2"></i> <span>Add Operacional</span></a>
 								<a href="<?=site_url()?>Institucionais/add" class="btn btn-link btn-float has-text"><i class="icon-versions"></i> <span>Add Institucional</span></a>
 								<a href="<?=site_url()?>Noticias/add" class="btn btn-link btn-float has-text"><i class="icon-book"></i> <span>Add Notícia</span></a>
+								<a href="<?=site_url()?>Fotos/add" class="btn btn-link btn-float has-text"><i class="icon-camera"></i> <span>Add Foto</span></a>
 							</div>
 
 						</div>

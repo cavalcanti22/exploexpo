@@ -6,6 +6,7 @@
 		private $operacional;
 		private $institucional;
 		private $noticia;
+		private $foto;
 
 		function __construct()
 		{
@@ -23,6 +24,9 @@
 
 			require 'models/Noticia.php';
 			$this->noticia = new Noticia;
+
+			require 'models/Foto.php';
+			$this->foto = new Foto;
 
 		}
 
@@ -61,6 +65,16 @@
 			$data['header'] = $this->pagina->get_pagina(1);
 			$data['contato1'] = $this->pagina->get_pagina(5);
 			$data['contato2'] = $this->pagina->get_pagina(6);
+			return $data;
+
+		}
+
+		public function fotos(){
+			$data['layout']	 	= 'views/layouts/fotos';
+			$data['view']		= 'views/sites/fotos';
+			$data['fotos'] 	 	= $this->foto->get_all_fotos();
+			$data['contato1'] 	= $this->pagina->get_pagina(5);
+			$data['contato2'] 	= $this->pagina->get_pagina(6);
 			return $data;
 
 		}
