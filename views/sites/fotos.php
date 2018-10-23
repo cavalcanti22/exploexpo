@@ -3,7 +3,8 @@
 <div class="container">
 	<div class="wthree_head_section">
 		<center>
-			<h3 class="agile_tittle"><i class="fa fa-bullhorn" aria-hidden="true"></i> <span>Galeria</span>Explo Expo 2018</h3>
+			<h3 class="agile_tittle"><i class="fa fa-camera-retro" aria-hidden="true" style="color: #000;"></i> <span>Galeria</span>Explo Expo 2018</h3>
+
 		</center>
 	</div>
 </div>
@@ -11,7 +12,7 @@
 	<div class="agile_port_w3ls_info">
 		<div class="portfolio-grids_main">
 			<?php foreach ($fotos as $foto): ?>
-				<div class="col-md-3 portfolio-grids" data-aos="zoom-in">
+				<div class="col-md-4 portfolio-grids" data-aos="zoom-in">
 
 					<a href="<?=site_url().$foto['imagem']?>" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1" style="padding: 10px;">
 						<center>
@@ -29,5 +30,8 @@
 		</div>
 	</div>
 </div>
+ <center>
+ 	<!-- <img src="<?=site_url()?>resources/site/images/colmeia.jpg" style="width: 65%;height: auto;" > -->
+ </center>
 </div>
 <!--// Gallery -->

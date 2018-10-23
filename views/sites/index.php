@@ -40,11 +40,11 @@
           </center>
         </div>
         <center>
-          <a href="https://www.hbatools.com.br/Home/ChangeLanguageInscricao/33?lang=pt" target="_blank">
-            <img src="<?=site_url()?>resources/site/images/cred.jpg" alt="">
+          <a href="<?=site_url()?>Sites/fotos" target="_blank">
+            <img src="<?=site_url()?>resources/site/images/evento1.jpg" alt="">
           </a>
-          <a href="https://www.hbatools.com.br/Home/ChangeLanguageInscricao/33?lang=pt" target="_blank">
-            <img src="<?=site_url()?>resources/site/images/insc.jpg" alt="">
+          <a href="<?=site_url()?>Sites/fotos" target="_blank">
+            <img src="<?=site_url()?>resources/site/images/evento2.jpg" alt="">
           </a>
         </center>
       </div>

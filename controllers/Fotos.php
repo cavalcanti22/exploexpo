@@ -107,7 +107,7 @@
 
 							else
 							{
-								unlink($data['operacional']['imagem']);
+								unlink($data['foto']['imagem']);
 							}
 							$data = $this->index();
 						}
