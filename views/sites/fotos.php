@@ -11,7 +11,7 @@
 	<div class="agile_port_w3ls_info">
 		<div class="portfolio-grids_main">
 			<?php foreach ($fotos as $foto): ?>
-				<div class="col-md-6 portfolio-grids" data-aos="zoom-in">
+				<div class="col-md-3 portfolio-grids" data-aos="zoom-in">
 
 					<a href="<?=site_url().$foto['imagem']?>" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1" style="padding: 10px;">
 						<center>

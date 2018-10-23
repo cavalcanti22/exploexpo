@@ -41,11 +41,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="w3l_footer" style="background-color: #4577B5;">
 		<div class="container">
 			<div class="col-md-12">
-				<center><h2><a href="<?=site_url()?>"><i class="fa fa-camera-retro" aria-hidden="true"></i> Expo Explo</a></h2>
+				<center><h2><a href="<?=site_url()?>"><i class="fa fa-camera-retro" aria-hidden="true"></i> Explo Expo</a></h2>
 				</center>
 			</div>
 			<div class="clearfix"> </div>
-			<p class="agileits_w3ls_copyright">© 2018 Explo Expo. Todos os direitos reservados | Design by <a href="http://geminiweb.com.br" style="color: #FDC42F;">Gemini Web Floripa.</a></p>
+			<p class="agileits_w3ls_copyright" style="margin: 4em 0 0em 0;">© 2018 Explo Expo. Todos os direitos reservados | Design by <a href="http://geminiweb.com.br" style="color: #FDC42F;">Gemini Web Floripa.</a></p>
 	
 		</div>
 	</div>

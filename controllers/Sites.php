@@ -73,8 +73,6 @@
 			$data['layout']	 	= 'views/layouts/fotos';
 			$data['view']		= 'views/sites/fotos';
 			$data['fotos'] 	 	= $this->foto->get_all_fotos();
-			$data['contato1'] 	= $this->pagina->get_pagina(5);
-			$data['contato2'] 	= $this->pagina->get_pagina(6);
 			return $data;
 
 		}
