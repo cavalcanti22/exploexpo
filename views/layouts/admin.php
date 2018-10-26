@@ -301,6 +301,9 @@
 								<li>
 									<a href="<?=site_url()."Usuarios/index"?>" id=""><i class="icon-people"></i> <span>Usuários</span></a>
 								</li>
+								<li>
+									<a href="<?=site_url()."Depoimentos/index"?>" id=""><i class="icon-book"></i> <span>Depoimentos</span></a>
+								</li>
 								<li class=""><a href="<?=site_url()."Sites/ingles"?>" target="_blank"><i class="icon-home4"></i> <span>Ir para o site em inglês</span></a></li>
 
 								<li>
@@ -333,6 +336,7 @@
 								<a href="<?=site_url()?>Institucionais/add" class="btn btn-link btn-float has-text"><i class="icon-versions"></i> <span>Add Institucional</span></a>
 								<a href="<?=site_url()?>Noticias/add" class="btn btn-link btn-float has-text"><i class="icon-book"></i> <span>Add Notícia</span></a>
 								<a href="<?=site_url()?>Fotos/add" class="btn btn-link btn-float has-text"><i class="icon-camera"></i> <span>Add Foto</span></a>
+								<a href="<?=site_url()?>Depoimentos/add" class="btn btn-link btn-float has-text"><i class="icon-book"></i> <span>Add Depoimento</span></a>
 							</div>
 
 						</div>

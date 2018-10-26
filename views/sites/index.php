@@ -40,7 +40,7 @@
           </center>
         </div>
         <center>
-          <a href="<?=site_url()?>Sites/fotos" target="_blank">
+          <a href="<?=site_url()?>Sites/depoimentos" target="_blank">
             <img src="<?=site_url()?>resources/site/images/evento1.jpg" alt="">
           </a>
           <a href="<?=site_url()?>Sites/fotos" target="_blank">
